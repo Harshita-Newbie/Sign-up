@@ -1,0 +1,101 @@
+body{
+  font-family: 'Vidaloka', serif;
+    position: relative;
+}
+
+ h1{
+   color:  #e84a5f;
+   float: left;
+   padding-bottom: 0;
+ }
+
+/* Navigation Bar */
+.column-1{
+background-color: #e84a5f;
+}
+
+
+/* Form */
+
+.sign-form{
+  margin: 3rem 0 2rem 15rem;
+
+}
+.form-control{
+  margin-bottom: 2rem;
+}
+
+/*Address Bar*/
+.address-padding{
+  padding-left: 0;
+}
+
+
+
+
+
+
+
+/* button */
+.button-color{
+  background-color: #e84a5f;
+  margin-right:  2rem ;
+  margin-bottom: 1rem;
+}
+.button-color-2{
+  color:  #e84a5f;
+  margin-right: 2rem ;
+  margin-bottom: 1rem;
+}
+.button-color-2:hover{
+  background-color: #ff847c;
+  color: white;
+}
+
+
+/* Checkbox */
+.checkbox-policies{
+  padding-left: 0;
+  color:  #e84a5f;
+}
+
+
+
+/* Bottom */
+.bottom-head{
+margin: 7rem ;
+text-align: left;
+}
+.bottom-head1{
+margin: 7rem 1rem ;
+text-align: center;
+display: block;
+
+}
+.bottom-head2{
+  margin: 10rem 0 0 0;
+display: block;
+}
+.image{
+  position: absolute;
+  left: 960px;
+  right: 0;
+  top: 0;
+  width: 25rem;
+}
+@media  only screen and (max-width: 1028px) {
+  .image{
+    width: 0;
+    height: 0;
+    
+  }
+  .sign-form{
+    margin: 1rem;
+  }
+  .button-color-2{
+    margin-bottom: 0;
+  }
+  .button-color{
+    margin-bottom: 0;
+  }
+}
